@@ -1,18 +1,18 @@
-package treyg.render;
+package treyg.blocksomore.render;
 
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.IItemRenderer;
-import treyg.blocksomore.models.ModelCandle;
-import treyg.blocksomore.tileentity.TileEntityCandle;
+import treyg.blocksomore.models.ModelCandleThick;
+import treyg.blocksomore.tileentity.TileEntityCandleThick;
 
-public class CandleRenderer implements IItemRenderer
+public class CandleThickRenderer implements IItemRenderer
 {
-	private ModelCandle model;
+	private ModelCandleThick model;
 	
-	public CandleRenderer()
+	public CandleThickRenderer()
 	{
-		model = new ModelCandle();
+		model = new ModelCandleThick();
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class CandleRenderer implements IItemRenderer
 	@Override
 	public void renderItem(ItemRenderType type, ItemStack item, Object... data) 
 	{
-		TileEntityRenderer.instance.renderTileEntityAt(new TileEntityCandle(), 0.0D, 0.0D, 0.0D, 0.0F);	
+		TileEntityRenderer.instance.renderTileEntityAt(new TileEntityCandleThick(), 0.0D, 0.0D, 0.0D, 0.0F);	
 	}
 
 }

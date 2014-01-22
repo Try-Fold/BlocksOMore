@@ -1,4 +1,4 @@
-package treyg.render;
+package treyg.blocksomore.render;
 
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.item.ItemStack;

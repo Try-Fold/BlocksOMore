@@ -1,4 +1,4 @@
-package treyg.common;
+package treyg.blocksomore.common;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
