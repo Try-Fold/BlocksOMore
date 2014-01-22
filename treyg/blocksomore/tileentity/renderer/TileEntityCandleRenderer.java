@@ -7,7 +7,7 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import treyg.blocksomore.models.ModelCandle;
+import treyg.blocksomore.render.models.ModelCandle;
 import treyg.blocksomore.tileentity.TileEntityCandle;
 
 public class TileEntityCandleRenderer extends TileEntitySpecialRenderer

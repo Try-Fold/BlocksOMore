@@ -1,4 +1,4 @@
-package treyg.blocksomore.models;
+package treyg.blocksomore.render.models;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
@@ -104,19 +104,22 @@ public class ModelCraftingTable extends ModelBase
   public void renderModel(float f5)
   {
 	  leg1.render(f5);
-	  leg2.render(f5);
-	  leg3.render(f5);
-	  leg4.render(f5);
-	  top.render(f5);
-	  support1.render(f5);
-	  support2.render(f5);
-	  support3.render(f5);
-	  support4.render(f5);
-	  clothtop.render(f5);
+	    leg2.render(f5);
+	    leg3.render(f5);
+	    leg4.render(f5);
+	    top.render(f5);
+	    support1.render(f5);
+	    support2.render(f5);
+	    support3.render(f5);
+	    support4.render(f5);
+	    clothtop.render(f5);
   }
   
   private void setRotation(ModelRenderer model, float x, float y, float z)
   {
+	  model.rotateAngleX = x;
+	  model.rotateAngleY = y;
+	  model.rotateAngleZ = z;
   }
   
   public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5)

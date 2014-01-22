@@ -8,11 +8,11 @@ import treyg.blocksomore.blocks.BlockCandle;
 import treyg.blocksomore.blocks.BlockCandleStick;
 import treyg.blocksomore.blocks.BlockCandleThick;
 import treyg.blocksomore.blocks.BlockCrafting;
+import treyg.blocksomore.client.ClientPacketHandler;
+import treyg.blocksomore.common.CommonProxy;
+import treyg.blocksomore.common.ServerPacketHandler;
 import treyg.blocksomore.items.ItemCandle;
 import treyg.blocksomore.items.ItemCraft;
-import treyg.client.ClientPacketHandler;
-import treyg.common.CommonProxy;
-import treyg.common.ServerPacketHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -40,7 +40,7 @@ public class mod_BlocksOMore
 	@Instance("BlocksOMore")
 	public static mod_BlocksOMore instance = new mod_BlocksOMore();
 
-	@SidedProxy(clientSide = "treyg.client.ClientProxy", serverSide = "treyg.common.CommonProxy")
+	@SidedProxy(clientSide = "treyg.blocksomore.client.ClientProxy", serverSide = "treyg.blocksomore.common.CommonProxy")
 	public static CommonProxy proxy;
 	
 	public static String modid = "BlocksOMore";

@@ -3,7 +3,7 @@ package treyg.blocksomore.render;
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.IItemRenderer;
-import treyg.blocksomore.models.ModelCraftingTable;
+import treyg.blocksomore.render.models.ModelCraftingTable;
 import treyg.blocksomore.tileentity.TileEntityCraft;
 
 public class CraftRenderer implements IItemRenderer

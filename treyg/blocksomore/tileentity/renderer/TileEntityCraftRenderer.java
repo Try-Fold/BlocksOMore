@@ -7,7 +7,9 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import treyg.blocksomore.models.ModelCraftingTable;
+import treyg.blocksomore.render.models.ModelCandleThick;
+import treyg.blocksomore.render.models.ModelCraftingTable;
+import treyg.blocksomore.tileentity.TileEntityCandleThick;
 import treyg.blocksomore.tileentity.TileEntityCraft;
 
 public class TileEntityCraftRenderer extends TileEntitySpecialRenderer

@@ -3,7 +3,7 @@ package treyg.blocksomore.render;
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.IItemRenderer;
-import treyg.blocksomore.models.ModelCandle;
+import treyg.blocksomore.render.models.ModelCandle;
 import treyg.blocksomore.tileentity.TileEntityCandle;
 
 public class CandleRenderer implements IItemRenderer
